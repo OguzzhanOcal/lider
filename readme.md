@@ -80,11 +80,21 @@ Standar kurulum Veritabanı, OpenLDAP, Xmpp ve Lideri aynı makineye kurmamızı
 ![1](1.png)
 
 Ayarlar sekmesinde ki standart seçeneğini seçiyoruz.
-Sunucu Adresi
-Kullanıcı Adı,
-Kullanıcı Parolası yazan yerlere kurulum yapılacak makinenin ip adresi kullanıcı adı ve parololarını yazmalıyız. Burda yüklenicek makinedeki sudo da yetkili kullanıcı olmasına dikkat ediyoruz.
+Sunucu ip adresi
+Kullanıcı adı,
+Kullanıcı parolası yazan yerlere kurulum yapılacak makinenin ip adresi kullanıcı adı ve parololarını yazmalıyız. Burda yüklenicek makinedeki sudo da yetkili kullanıcı olmasına dikkat ediyoruz.
+
+### Gelişmiş Kurulum
+
+Lider ahenk uygulamasının tüm bileşenlerinin farklı makinelere kurmamızı sağlar.
 
 ![2](2.png)
+
+Ayarlar sekmesindeki gelimiş seçeneğini seçiyoruz.
+Ekle butonu ile tek tek Veritabanı, OpenLDAP, XMPP, Liderin kurulacağı makinelerin ip adreslerini, sudo yetkili kullanıcı adlarını ve şifrelerini giriyoruz.
+
+
+![3](3.png)
 
 Bağlantıyı kontrol et butonuna tıkladıktan sonra bilgilendirme kutusunda onay alıyoruz eğer bir hata verirse ip adresine ve iki makinede de ssh paketitinin kurulu olduğundan emin olunuz.
 
