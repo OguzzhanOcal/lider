@@ -15,7 +15,9 @@ sudo apt-get install python3-pip
 ````
 pip3 install ruamel.yaml
 ````
+
 ## Uygulamanın İndirilmesi
+
 ````
 sudo apt-get install git
 ````
@@ -23,6 +25,7 @@ sudo apt-get install git
 ````
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
+
 ## Uygulamanın Çalıştırılması
 
 Üstteki komutları yazdıktan sonra,
