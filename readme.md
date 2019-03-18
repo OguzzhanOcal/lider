@@ -81,12 +81,9 @@ Kullanıcı Parolası yazan yerlere kurulum yapılacak makinenin ip adresi kulla
 
 Bağlantıyı kontrol et butonuna tıkladıktan sonra bilgilendirme kutusunda onay alıyoruz eğer bir hata verirse ip adresine ve iki makinede de ssh paketitinin kurulu olduğundan emin olunuz.
 
-![3](3.png)
-
-Ana paket Deposunu seçiyoruz, (Yeni gelişmeleri takip etmek istiyorsanız test paket deposunu da seçebilirsiniz)
-
 ![4](4.png)
 
+Ana paket Deposunu seçiyoruz, (Yeni gelişmeleri takip etmek istiyorsanız test paket deposunu da seçebilirsiniz).
 Ayarları kaydet butonuna basıp seçtiğimiz paketi onaylıyoruz.
 
 ![5](5.png)
