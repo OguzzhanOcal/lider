@@ -29,7 +29,7 @@ kurulum uygulmasını çalıştırmak için dosya dizinine gidilir.
 ````
 cd /lider-ahenk-instaler/src/
 ````
-kurulum uygulmasını çalıştırmak önce için dosya dizinine gidilir.
+kurulum uygulmasını çalıştırmak için önce dosya dizinine gidilir.
 ````
 python3 app.py
 ````
