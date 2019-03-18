@@ -18,13 +18,19 @@ pip3 install ruamel.yaml
 
 ## Uygulamanın İndirilmesi
 
+Lider Ahenk Kurulum Uygulamasını indirmek için,
+
 ````
 sudo apt-get install git
 ````
 
+önce github kütüphanesini indirip yüklüyoruz.
+
 ````
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
+
+Githubdan Lider Ahenk Kurulum Uygulamasını kuruyoruz.
 
 ## Uygulamanın Çalıştırılması
 
