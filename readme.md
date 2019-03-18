@@ -11,6 +11,7 @@ sudo apt-get install python3-yaml python3-paramiko python3-pyqt5
 ````
 sudo apt-get install python3-pip
 ````
+
 ````
 pip3 install ruamel.yaml
 ````
@@ -18,21 +19,24 @@ pip3 install ruamel.yaml
 ````
 sudo apt-get install git
 ````
+
 ````
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
 ## Uygulamanın Çalıştırılması
 
-Üstteki komutları yazdıktan sonra
-kurulum uygulmasını çalıştırmak için dosya dizinine gidilir.
+Üstteki komutları yazdıktan sonra,
 
 ````
 cd /lider-ahenk-instaler/src/
 ````
+
 kurulum uygulmasını çalıştırmak için önce dosya dizinine gidilir.
+
 ````
 python3 app.py
 ````
+
 ile kurulum dosyası çalıştırılır.
 
 ##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
