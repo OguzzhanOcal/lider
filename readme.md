@@ -1,6 +1,9 @@
 # LİDER UYGULAMASI NASIL KURULUR
 
 ## Bağımlılıkların Kurulması
+
+Terminali açarak aşağıdaki komutları sırasıyla yazıyoruz.
+
 ````
 sudo apt-get install python3-yaml python3-paramiko python3-pyqt5
 ````
@@ -36,6 +39,8 @@ Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh pak
 
 Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
 
+### Sekmeler
+
 #### Ayarlar Sekmesi
 
 Ayarlar sekmesi Standart ve Gelişmiş kurulumlardan hangisini seçiceğimizi belirlediğimiz kurulum yapılacak makinelerin bağlanmasını ve kontrolünü sağladığımız sekmedir. Ayrıca Lider Ahenk Paket Deposunu seçitiğimiz bölümdür.
@@ -55,52 +60,51 @@ Ahenk sekmesinde ahenk kullanıcıların eklendiği bölümdür.
 
 #### Log Sekmesi
 
-Log sekmesi ise hangi dosyların kurulduğunu gösteren kurulumda herhangi bir hata olursa gösteren bölümdür.
+Log sekmesi ise hangi dosyların kurulduğunu ve hangi komutların kullanıldığını gösteren kurulumda herhangi bir hata olursa gösteren bölümdür.
 
-Lider Ahenk Uygulamasının Standat ve Gelişmiş olmak üzere 2 kurulum şekli vardır.
+### Kurulum
+
+Kurulum standart ve gelişmiş olarak iki şekilde gerçekleşiyor.
+
+### Standart Kurlum
+
+Standar kurulum Veritabanı, OpenLDAP, Xmpp ve Lideri aynı makineye kurmamızı sağlar.
+
 ![1](1.png)
 
-Lider Ahenk Kurulum uygulaması açılır,
+Ayarlar sekmesinde ki standart seçeneğini seçiyoruz.
+Sunucu Adresi
+Kullanıcı Adı,
+Kullanıcı Parolası yazan yerlere kurulum yapılacak makinenin ip adresi kullanıcı adı ve parololarını yazmalıyız. Burda yüklenicek makinedeki sudo da yetkili kullanıcı olmasına dikkat ediyoruz.
 
 ![2](2.png)
 
-Burada
-Sunucu Adresi
-Kullanıcı Adı,
-Kullanıcı Parolası yazan yerlere kurulum yapılacak makinenin ip adresi kullanıcı adı ve parololarını yazmalıyız,
+Bağlantıyı kontrol et butonuna tıkladıktan sonra bilgilendirme kutusunda onay alıyoruz eğer bir hata verirse ip adresine ve iki makinede de ssh paketitinin kurulu olduğundan emin olunuz.
 
 ![3](3.png)
 
-Bağlantıyı kontrol et butonuna bastıktan sonra
+Ana paket Deposunu seçiyoruz, (Yeni gelişmeleri takip etmek istiyorsanız test paket deposunu da seçebilirsiniz)
 
 ![4](4.png)
 
-Ana paket Deposunu seçiyoruz, (Yeni gelişmeleri takip etmek istiyorsanız test paket deposunu da seçebilirsiniz)
+Ayarları kaydet butonuna basıp seçtiğimiz paketi onaylıyoruz.
 
 ![5](5.png)
 
-Ayarları kaydet butonuna tıkladıktan sonra,
-
+Ayarlar sekmesinden sonra lider sekmesindeki alanları dolduruyoruz. LDAP seçeneğini makinede kuruluysa Güncelle seçeneğini seçiyoruz kurulu değilse kur seçeğini seçerek devam ediyoruz.
 
 ![6](6.png)
 
-Sol panelde yer alan lidere tıklayıp açılan sekmede,
-
+Anlatılan işlemleri yaptıktan sonra kuruluma başlamak için kuruluma başla butonuna tıklıyoruz.
 
 ![7](7.png)
 
-Yukarda görüldüğü gibi alanları doldurunuz.
+Kurulum devam ediyor.
 
 ![8](8.png)
 
-Kuruluma başla butonuna basarak kurulumu başlatabilirsiniz.
+Kurulum bittiğinde bu bildirimi alırsınız.
 
 ![9](9.png)
 
-![10](10.png)
-
-Kuruumun bittiğini bu bildirimlere alırsınız ve
-
-![11](11.png)
-
-Bu ekrandan hangi kurulumların yapıldğını kurulum sonunda görebilirsiniz.
+Log sekmesine gelerek uygulamanın hangi kurulumları yaptığını bir hata olup olmadığını hangi komutları kullandığını kurulum sonrasında görebilirsiniz.
