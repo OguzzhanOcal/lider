@@ -35,7 +35,7 @@ python3 app.py
 ````
 ile kurulum dosyası çalıştırılır.
 
-Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
+##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
 
 Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
 
@@ -45,9 +45,9 @@ Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
 
 Ayarlar sekmesi Standart ve Gelişmiş kurulumlardan hangisini seçiceğimizi belirlediğimiz kurulum yapılacak makinelerin bağlanmasını ve kontrolünü sağladığımız sekmedir. Ayrıca Lider Ahenk Paket Deposunu seçitiğimiz bölümdür.
 
-###### Ana Paket Deposu : Geliştirilmelerin tamamlandığı stabil çalışan depordur.
+##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı stabil çalışan depordur.
 
-###### Test Paket Deposu : Yeni geliştirmelerin yüklendiği depodur.
+##### Test Paket Deposu : Yeni geliştirmelerin yüklendiği depodur.
 
 #### Lider Sekmesi
 
