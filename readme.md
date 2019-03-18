@@ -37,9 +37,9 @@ ile kurulum dosyası çalıştırılır.
 
 ##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
 
-Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
-
 ### Sekmeler
+
+Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
 
 #### Ayarlar Sekmesi
 
@@ -52,7 +52,7 @@ Ayarlar sekmesi Standart ve Gelişmiş kurulumlardan hangisini seçiceğimizi be
 #### Lider Sekmesi
 
 Bu sekme sunucu konfigürasyonlarının ve kurulumun başlatıldığı bölümdür.
-Burda dikkat etmemiz gereken LDAP seçeneğini eğer kurulucak sunucuda OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
+##### Not : Burda dikkat etmemiz gereken LDAP seçeneğini eğer kurulucak sunucuda  OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
 
 #### Ahenk Sekmesi
 
