@@ -69,7 +69,8 @@ Gelişmiş Kurulum Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağl
 
 ##### Test Paket Deposu : Yeni geliştirmelerin yayınlandığı depodur.
 
-<p id = "standart">
+<p id = "standart"></p>
+
 #### 1.1. Standart Kurulum
 
 Standart Kurulum Lider Ahenk Sunucu bileşenlerinin (Veritabanı, OpenLDAP, XMPP, Lider) tek bir makineye kurulmasını sağlar.
@@ -87,7 +88,8 @@ Ayarlar menüsündeki Lider Ahenk Sunucu Bağlantı Ayarlarındaki Standart seç
 
 Bağlantıyı kontrol et butonuna tklayarak bağlantının başarılı olup olmadığından emin olunur. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
 
-<p id = "gelismis">
+<p id = "gelismis"></p>
+
 #### 1.2. Gelimis Kurulum
 
 Gelişmiş kurulum Lider Ahenk Sunucu bileşenlerinin (Veritabanı, OpenLDAP, XMPP, Lider) ayrı makinelere kurulmasını sağlar.
