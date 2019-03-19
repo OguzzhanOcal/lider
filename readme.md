@@ -62,18 +62,18 @@ Lider Ahenk Sunucu Bağlantı Ayarları,
 Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
 
 Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Sırasıyla; <br>
-Standart Kurulum, <br>
-Lider Ahenk Paket Deposu Ayarları,<br>
-Lider Menüsü,<br>
-Log Menüsü<br>
+* Standart Kurulum, <br>
+* Lider Ahenk Paket Deposu Ayarları,<br>
+* Lider Menüsü,<br>
+* Log Menüsü<br>
 adımları izlenmelidir.<br>
 Standart Kurulum adımları için <a href = "#standart" >**tıklayınız.**</a>
 
 Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Sırasıyla; <br>
-Gelişmiş Kurulum, <br>
-Lider Ahenk Paket Deposu Ayarları,<br>
-Lider Menüsü,<br>
-Log Menüsü<br>
+* Gelişmiş Kurulum, <br>
+* Lider Ahenk Paket Deposu Ayarları,<br>
+* Lider Menüsü,<br>
+* Log Menüsü<br>
 adımları izlenmelidir.<br>
 Gelişmiş Kurulum adımları için <a href = "#gelismis" >**tıklayınız.**</a>
 
