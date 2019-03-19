@@ -61,9 +61,9 @@ Ayarlar menüsünde Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket
 Lider Ahenk Sunucu Bağlantı Ayarları,
 Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
 
-Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Standart Kurulum adımları için <a href = "#standart" >tıklayınız.</a>
+Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Standart Kurulum adımları için <a href = "#standart" >**tıklayınız.**</a>
 
-Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >tıklayınız.</a>
+Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >**tıklayınız.**</a>
 
 ##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı kararlı deposudur.
 
@@ -86,7 +86,7 @@ Lider Ahenk Sunucu Erişim Bilgileri alanında Lider Ahenk Uygulamasının kurul
 ![3](3.png)
 
 
-Bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
+Bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
 
 <p id = "gelismis"></p>
 
@@ -99,7 +99,7 @@ Gelişmiş kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Gelişmi�
 
 ![2](2.png)
 
-Lider Ahenk Sunucu Erişim Bilgileri alanında (Veritabanı, OpenLDAP, XMPP, Lider) Lider Ahenk Uygulamasının kurulum yapılacağı makinelerin bilgileri girilir ve ekle butonuna basılır. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir. Daha sonra bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
+Lider Ahenk Sunucu Erişim Bilgileri alanında (Veritabanı, OpenLDAP, XMPP, Lider) Lider Ahenk Uygulamasının kurulum yapılacağı makinelerin bilgileri girilir ve ekle butonuna basılır. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir. Bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
 
 <p id = "ayarlar"></p>
 
