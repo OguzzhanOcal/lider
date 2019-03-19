@@ -119,6 +119,7 @@ Lider menüsü Lider Ahenk sunucu konfigürasyonlarının ve kurulumun başlatı
 
 ##### Not : Burda LDAP seçeneğini eğer kurulucak sunucuda  OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
 <br>
+
 ![6](6.png)
 
 Ayarlar menüsünden sonra lider sekmesindeki alanları dolduruyoruz. LDAP seçeneğini kurulum yapılacak makinede kuruluysa Güncelle seçeneğini seçiyoruz kurulu değilse kur seçeği seçilir. Boş alanlar doldurulup,
