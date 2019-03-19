@@ -66,6 +66,7 @@ Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağl
 * Lider Ahenk Paket Deposu Ayarları,<br>
 * Lider Menüsü,<br>
 * Log Menüsü<br>
+
 adımları izlenmelidir.<br>
 Standart Kurulum adımları için <a href = "#standart" >**tıklayınız.**</a>
 
@@ -74,6 +75,7 @@ Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sa�
 * Lider Ahenk Paket Deposu Ayarları,<br>
 * Lider Menüsü,<br>
 * Log Menüsü<br>
+
 adımları izlenmelidir.<br>
 Gelişmiş Kurulum adımları için <a href = "#gelismis" >**tıklayınız.**</a>
 
