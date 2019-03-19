@@ -119,6 +119,7 @@ Lider menüsü Lider Ahenk sunucu konfigürasyonlarının yapıldığı ve kurul
 
 ##### Not : Burda LDAP seçeneğini eğer kurulucak sunucuda  OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
 <br>
+
 ![6](6.png)
 
 Sunucu konfigürasyonu için LDAP konfigürasyon bilgileri ve XMPP konfigürasyon bilgileri girilir.
