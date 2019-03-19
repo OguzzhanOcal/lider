@@ -149,6 +149,8 @@ Lider Arayüz Kullanıcı Adı: Lider arayüzü kullancak kullanıcı adı (Lide
 Lider Arayüz Kullanıcı Parolası: Lider arayüzü kullancak kullanıcı parolası, <br>
 XMPP Admin Kullanıcı Parolası: XMPP admin kullanıcı parolası, <br> girilir.
 
+Kuruluma başla butonuna tıklayarak kurulum başlatılır.
+
 ![7](7.png)
 
 Kurulum devam ediyor.
