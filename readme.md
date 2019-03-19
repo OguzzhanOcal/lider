@@ -113,8 +113,6 @@ Ana Paket Deposu geliştirmelerin tamamlandığı stabil çalışan, Test Paket 
 
 Kulanılmak istenilen paket deposu seçildikten sonra bağlantıyı kontrol et butonuna tıklayarak devam edilir. Lider Menüsüne geçilir.
 
-##### Not : 
-
 ### 2. Lider Menüsü
 
 Lider menüsü Lider Ahenk sunucu konfigürasyonlarının ve kurulumun başlatıldığı bölümdür.
