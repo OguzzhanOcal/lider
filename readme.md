@@ -65,6 +65,8 @@ Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağl
 
 Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >**tıklayınız.**</a>
 
+##### Not : Standart Kurulum ve Gelişmiş Kurulumlar 2 ayrı kurlum çeşididir. Kurulum sırasında sadece biri seçilmelidir.
+
 ##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı kararlı deposudur.
 
 ##### Test Paket Deposu : Yeni geliştirmelerin yayınlandığı test deposudur.
