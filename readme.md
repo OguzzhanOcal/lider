@@ -2,7 +2,7 @@
 
 ## Bağımlılıkların Kurulması
 
-Terminali açarak aşağıdaki komutları sırasıyla yazıyoruz.
+Uçbirimde aşağıdaki komutları sırasıyla yazılır.
 
 ````
 sudo apt-get install python3-yaml python3-paramiko python3-pyqt5
@@ -24,41 +24,58 @@ Lider Ahenk Kurulum Uygulamasını indirmek için,
 sudo apt-get install git
 ````
 
-önce github kütüphanesini indirip yüklüyoruz.
+önce github kütüphanesi indirip yüklenir
 
 ````
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
 
-Githubdan Lider Ahenk Kurulum Uygulamasını kuruyoruz.
+Githubdan Lider Ahenk Kurulum Uygulaması kurulur.
 
 ## Uygulamanın Çalıştırılması
 
-Üstteki komutları yazdıktan sonra,
+Kurulum ugulamasını çalıştırmak için;
 
 ````
 cd /lider-ahenk-instaler/src/
 ````
 
-kurulum uygulmasını çalıştırmak için önce dosya dizinine gidilir.
+komutu ile src dizinine gidilir ve
 
 ````
 python3 app.py
 ````
-<a href = "#menü" > 
-ile kurulum dosyası çalıştırılır.
 
-##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
+komutu ile kurulum uygulaması çalıştırılır.
 
-<id = "menü">
-### Sekmeler
+##### Not : Uygulamayı çalıştırmadan önce lider ahenk kurulum uygulamasının çalıştırıldığı makinede ve  kurulum yapılacak makinelerde ssh paketinin kurulu olmalıdır.
 
-Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
+## Menüler
 
-#### Ayarlar Sekmesi
+Uygulamamız solda görüldüğü gibi 4 menüden oluşur.
 
-Ayarlar sekmesi Standart ve Gelişmiş kurulumlardan hangisini seçiceğimizi belirlediğimiz kurulum yapılacak makinelerin bağlanmasını ve kontrolünü sağladığımız sekmedir. Ayrıca Lider Ahenk Paket Deposunu seçitiğimiz bölümdür.
+### 1. Ayarlar Nenüsü
 
+Ayarlar menüsünde Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket Deposu Ayarlarının yapıldığı menüdür.
+
+Lider Ahenk Sunucu Bağlantı Ayarları,
+Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
+
+Standart Kurulum Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Standart Kurulum adımları için <a href = "#standart" >tıklayınız.</a>
+
+Gelişmiş Kurulum Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >tıklayınız.</a>
+
+<p id = "standart">
+#### 1.1. Standart Kurulum
+
+Standart Kurulum Lider Ahenk Sunucu bileşenlerinin (Veritabanı, OpenLDAP, XMPP, Lider) tek bir makineye kurulmasını sağlar.
+
+Standart Kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Standart kutucuğuna tıklanır.
+
+![1](1.png)
+
+<p id = "gelismis">
+#### 1.2. Gelimis Kurulum
 ##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı stabil çalışan depordur.
 
 ##### Test Paket Deposu : Yeni geliştirmelerin yüklendiği depodur.
