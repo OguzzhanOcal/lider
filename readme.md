@@ -50,7 +50,7 @@ ile kurulum dosyası çalıştırılır.
 
 ##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
 
-<h1 id = "menü">
+<id = "menü">
 ### Sekmeler
 
 Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
