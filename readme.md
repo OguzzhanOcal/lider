@@ -101,7 +101,8 @@ Gelişmiş kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Gelişmi�
 
 Veritabanı, OpenLDAP, XMPP, Liderin yükleneceği makinelerin ip adresleri sudo yetkili kullanıcı adları ve paroları girlir ve ekle butonuna basılır. Daha sonra bağlantıyı kontrol et butonuna tıklayarak bağlantılardan başarılı olduğunda emin olunur. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
 
-<p id = "ayarlar">
+<p id = "ayarlar"></p>
+
 #### 1.3. Lider Ahenk Paket Deposu Ayarları
 
 Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur. 
