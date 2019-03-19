@@ -24,13 +24,13 @@ Lider Ahenk Kurulum Uygulamasını indirmek için,
 sudo apt-get install git
 ````
 
-önce github kütüphanesi indirip yüklenir
+komutu ile git paketi yüklenir.
 
 ````
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
 
-Githubdan Lider Ahenk Kurulum Uygulaması kurulur.
+komutu ile Lider Ahenk Kurulum Uygulaması indirilir.
 
 ## Uygulamanın Çalıştırılması
 
@@ -61,13 +61,13 @@ Ayarlar menüsünde Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket
 Lider Ahenk Sunucu Bağlantı Ayarları,
 Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
 
-Standart Kurulum Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Standart Kurulum adımları için <a href = "#standart" >tıklayınız.</a>
+Standart Kurulum : Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Standart Kurulum adımları için <a href = "#standart" >tıklayınız.</a>
 
-Gelişmiş Kurulum Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >tıklayınız.</a>
+Gelişmiş Kurulum : Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Gelişmiş Kurulum adımları için <a href = "#gelismis" >tıklayınız.</a>
 
-##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı stabil çalışan depordur.
+##### Ana Paket Deposu : Geliştirilmelerin tamamlandığı kararlı deposudur.
 
-##### Test Paket Deposu : Yeni geliştirmelerin yayınlandığı depodur.
+##### Test Paket Deposu : Yeni geliştirmelerin yayınlandığı test deposudur.
 
 <p id = "standart"></p>
 
@@ -80,13 +80,13 @@ Standart Kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Standart ku
 ![1](1.png)
 
 
-Ayarlar menüsündeki Lider Ahenk Sunucu Bağlantı Ayarlarındaki Standart seçeneği seçilir. Kurulum yapılacak makinenin ip adresini sunucu adresine, sudo yetkili kullanıcı adını ve paralosını kullanıcı adı ve parola kısmına yazılır.
+Lider Ahenk Sunucu Erişim Bilgileri alanında Lider Ahenk Uygulamasının kurulum yapılacağı makinenin bilgileri girilir. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir.
 
 
 ![3](3.png)
 
 
-Bağlantıyı kontrol et butonuna tklayarak bağlantının başarılı olup olmadığından emin olunur. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
+Bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
 
 <p id = "gelismis"></p>
 
@@ -99,31 +99,37 @@ Gelişmiş kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Gelişmi�
 
 ![2](2.png)
 
-Veritabanı, OpenLDAP, XMPP, Liderin yükleneceği makinelerin ip adresleri sudo yetkili kullanıcı adları ve paroları girlir ve ekle butonuna basılır. Daha sonra bağlantıyı kontrol et butonuna tıklayarak bağlantılardan başarılı olduğunda emin olunur. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
+Lider Ahenk Sunucu Erişim Bilgileri alanında (Veritabanı, OpenLDAP, XMPP, Lider) Lider Ahenk Uygulamasının kurulum yapılacağı makinelerin bilgileri girilir ve ekle butonuna basılır. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir. Daha sonra bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız. </a>
 
 <p id = "ayarlar"></p>
 
 #### 1.3. Lider Ahenk Paket Deposu Ayarları
 
-Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur. 
+Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur.
 
-Ana Paket Deposu geliştirmelerin tamamlandığı stabil çalışan, Test Paket Deposu yeni geliştirmelerin yayınlandğı depodur.
+Ana Paket Deposu geliştirmelerin tamamlandığı kararlı, Test Paket Deposu yeni geliştirmelerin yayınlandğı test depodur.
 
 ![4](4.png)
 
-Kulanılmak istenilen paket deposu seçildikten sonra bağlantıyı kontrol et butonuna tıklayarak devam edilir. Lider Menüsüne geçilir.
+Kulanılmak istenilen paket deposu seçildikten sonra ayarları kaydet butonuna tıklayarak devam edilir. Lider Menüsüne geçilir.
 
 ### 2. Lider Menüsü
 
-Lider menüsü Lider Ahenk sunucu konfigürasyonlarının ve kurulumun başlatıldığı bölümdür.
+Lider menüsü Lider Ahenk sunucu konfigürasyonlarının yapıldığı ve kurulumun başlatıldığı bölümdür.
 
 ##### Not : Burda LDAP seçeneğini eğer kurulucak sunucuda  OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
 <br>
-
 ![6](6.png)
 
-Ayarlar menüsünden sonra lider sekmesindeki alanları dolduruyoruz. LDAP seçeneğini kurulum yapılacak makinede kuruluysa Güncelle seçeneğini seçiyoruz kurulu değilse kur seçeği seçilir. Boş alanlar doldurulup,
-kuruluma başlamak için kuruluma başla butonuna tıklanır.
+Sunucu konfigürasyonu için LDAP konfigürasyon bilgileri ve XMPP konfigürasyon bilgileri girilir.
+
+LDAP Konfigürasyon Bilgilerinde yer alan;<br>
+LDAP Base DN: LDAP temel düğümü,<br>
+LDAP Admin Parolası: LDAP admin yönetici parolası,<br>
+LDAP Config Kullanıcı Parolası: LDAP config yönetici parolası,<br>
+Lider Arayüz Kullanıcı Adı: Lider arayüzü kullancak kullanıcı adı (Lider Admini veya Sistem Yönetici), <br>
+Lider Arayüz Kullanıcı Parolası: Lider arayüzü kullancak kullanıcı parolası, <br>
+XMPP Admin Kullanıcı Parolası: XMPP admin kullanıcı parolası, <br> girilir.
 
 ![7](7.png)
 
@@ -139,5 +145,4 @@ Log menüsüde ise kurulumda gerçekleşen komutları, bilgileri, hataların gö
 
 ![9](9.png)
 
-Log menüsünü açarak kurulumdaki varsa hataları görebiliriz.
-
+Yenile butonuna tıklanır kurulum hakkında bilgiler görülür.
