@@ -45,11 +45,12 @@ kurulum uygulmasını çalıştırmak için önce dosya dizinine gidilir.
 ````
 python3 app.py
 ````
-
+<a href = "#menü" > 
 ile kurulum dosyası çalıştırılır.
 
 ##### Not : Uygulamayı çalıştırmadan önce kurulum yapılacak makinelerde ssh paketinin kurulu olduğundundan emin olunuz.
 
+<h1 id = "menü">
 ### Sekmeler
 
 Uygulamamız solda görüldüğü gibi 4 sekmeden oluşur.
