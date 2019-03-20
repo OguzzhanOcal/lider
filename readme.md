@@ -56,7 +56,7 @@ Uygulamamız solda görüldüğü gibi 4 menüden oluşur.
 
 ### 1. Ayarlar Menüsü
 
-Ayarlar menüsünde Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket Deposu Ayarlarının yapıldığı menüdür.
+Ayarlar menüsü, Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket Deposu Ayarlarının yapıldığı menüdür.
 
 Lider Ahenk Sunucu Bağlantı Ayarları,
 Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
@@ -90,7 +90,7 @@ Gelişmiş Kurulum adımları için <a href = "#gelismis" >**tıklayınız.**</a
 
 #### 1.1. Standart Kurulum
 
-Standart Kurulum Lider Ahenk Sunucu bileşenlerinin (Veritabanı, OpenLDAP, XMPP, Lider) tek bir makineye kurulmasını sağlar.
+Standart Kurulum, Lider Ahenk Sunucu bileşenlerinin (Veritabanı, OpenLDAP, XMPP, Lider) tek bir makineye kurulmasını sağlar.
 
 Standart Kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Standart kutucuğuna tıklanır.
 
@@ -103,7 +103,7 @@ Lider Ahenk Sunucu Erişim Bilgileri alanında Lider Ahenk Uygulamasının kurul
 ![3](3.png)
 
 
-Bağlantıyı kontrol et butonuna tıklanarak bağlantı kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
+**Bağlantıyı Kontrol Et** butonuna tıklanarak bağlantı durumu kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
 
 <p id = "gelismis"></p>
 
@@ -116,7 +116,7 @@ Gelişmiş kurulum için, Lider Ahenk Sunucu Bağlantı Ayarlarındaki Gelişmi�
 
 ![2](2.png)
 
-Lider Ahenk Sunucu Erişim Bilgileri alanında bileşen (Veritabanı, OpenLDAP, XMPP, Lider) seçilip, ilgili bileşene ait erişim bilgileri girilir ve ekle butonuna basılarak ilgili bileşen Lider Ahenk Sunucu Listesi alanına eklenir. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir. Bağlantıyı kontrol et butonuna tıklayarak bağlantı kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
+Lider Ahenk Sunucu Erişim Bilgileri alanında bileşen (Veritabanı, OpenLDAP, XMPP, Lider) seçilip, ilgili bileşene ait erişim bilgileri girilir ve **Ekle** butonuna tıklanarak ilgili bileşen Lider Ahenk Sunucu Listesi alanına eklenir. Sunucu adresi kurulum yapılacak makinenin ip bilgisini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinede bulunan **sudo** yetkili kullanıcıyı ifade etmektedir. **Bağlantıyı Kontrol Et** butonuna tıklanarak bağlantı durumu kontrol edilir. **Daha sonra Lider Ahenk Paket Deposu Ayarları yapılır. Bunun için <a href = "#ayarlar" >tıklayınız.** </a>
 
 <p id = "ayarlar"></p>
 
@@ -124,23 +124,22 @@ Lider Ahenk Sunucu Erişim Bilgileri alanında bileşen (Veritabanı, OpenLDAP, 
 
 Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur.
 
-Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket, Test Paket Deposu yeni geliştirmelerin yayınlandğı test paket deposudur.
+Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket deposudur, Test Paket Deposu ise yeni geliştirmelerin yayınlandğı test paket deposudur.
 
 ![4](4.png)
 
-Kullanılmak istenilen paket deposu seçildikten sonra ayarları kaydet butonuna tıklayarak devam edilir. Lider Menüsüne geçilir.
+Kullanılmak istenilen paket deposu seçildikten sonra **Ayarları Kaydet** butonuna tıklayarak bağlantı ayarları ve paket deposu ayarları kaydedilir. Lider Ahenk sunucu konfigürasyon ayarları için **Lider Menüsüne** geçilir.
 
 ### 2. Lider Menüsü
 
 Lider menüsü Lider Ahenk sunucu konfigürasyonlarının yapıldığı ve kurulumun başlatıldığı bölümdür.
 
-##### Not : Burda LDAP seçeneğini eğer kurulacak sunucuda  OpenLDAP kuruluysa OpenLDAP Güncelle seçeneğini seçmeniz gerekir.
 <br>
 
 ![6](6.png)
 
 Sunucu konfigürasyonu için LDAP konfigürasyon bilgileri ve XMPP konfigürasyon bilgileri girilir.
-
+LDAP İçin İşlem Seçiniz : Yeni kurulacak OpenLDAP için **OpenLDAP Kur**, kurulu OpenLDAP olması durumunda **OpenLDAP Güncelle** seçilmelidir.
 LDAP Konfigürasyon Bilgilerinde yer alan;<br>
 LDAP Base DN: LDAP temel düğümü,<br>
 LDAP Admin Parolası: LDAP admin yönetici parolası,<br>
@@ -149,11 +148,11 @@ Lider Arayüz Kullanıcı Adı: Lider arayüzü kullanacak kullanıcı adı (Lid
 Lider Arayüz Kullanıcı Parolası: Lider arayüzü kullanacak kullanıcı parolası, <br>
 XMPP Admin Kullanıcı Parolası: XMPP admin kullanıcı parolası, <br> girilir.
 
-Kuruluma başla butonuna tıklanarak kurulum başlatılır.
+**Kuruluma Başla** butonuna tıklanarak kurulum başlatılır.
 
 ![7](7.png)
 
-Kurulum devam ediyor.
+Kurulum devam ediyor. Kurulum Logları açılan XTerm ekranında da takip edilebilir.
 
 ![8](8.png)
 
@@ -161,8 +160,8 @@ Kurulum bittiğinde bu bildirim alınır.
 
 ### 2. Log Menüsü
 
-Log menüsüde ise kurulumda gerçekleşen komutları, bilgileri, hataların görüldüğü menüdür.
+Log Menüsüde ise kurulumda gerçekleşen komutları, bilgileri, hataların görüldüğü menüdür.
 
 ![9](9.png)
 
-Yenile butonuna tıklanır kurulum hakkında bilgiler görülür.
+**Yenile** butonuna tıklanır kurulum hakkında bilgiler görülür.
