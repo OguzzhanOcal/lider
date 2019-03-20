@@ -138,7 +138,7 @@ Lider menüsü Lider Ahenk sunucu konfigürasyonlarının yapıldığı ve kurul
 
 ![6](6.png)
 
-Sunucu konfigürasyonu için LDAP konfigürasyon bilgileri ve XMPP konfigürasyon bilgileri girilir.
+Sunucu konfigürasyonu için LDAP konfigürasyon bilgileri ve XMPP konfigürasyon bilgileri girilir. <br>
 LDAP İçin İşlem Seçiniz : Yeni kurulacak OpenLDAP için **OpenLDAP Kur**, kurulu OpenLDAP olması durumunda **OpenLDAP Güncelle** seçilmelidir.
 LDAP Konfigürasyon Bilgilerinde yer alan;<br>
 LDAP Base DN: LDAP temel düğümü,<br>
