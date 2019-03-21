@@ -159,21 +159,25 @@ Kurulum bittiğinde bu bildirim alınır.
 
 ### 3. Ahenk Menüsü
 
-Ahenk Menüsü, Lider Ahenk Arayüzünde sunucu ile bağlanmak istenilen makinelerin kurulmasını sağladığımız menüdür.
+Ahenk Menüsü, istemcileri etki alanına dahil etmek için kullanılan menüdür.
 
 ![10](10.png)
 
-Ahenk Konfigürasyon Bilgileri alanına XMPP sunucu kurulumu yapılan makinenin İP adresini XMPP Sunucu Adresi kısmına yazılır.
+Ahenk Konfigürasyon Bilgileri alanına, istemci blgi erişim alanında etki alanına dahil edilecek istemci erişim bilgileri girilir.
 
-Lider Ahenk Paket Deposu Ayarları alanına <a href = "#ayarlar" >**yukardaki** </a> gibi yapılır.
+Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur. Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket deposudur, Test Paket Deposu ise yeni geliştirmelerin yayınlandğı test paket deposudur. 
 
-Ahenk Kurulacak İstemci Erişim Bilgileri alanına Ahenk kurulmak istenilen makinelerin bilgileri girilir. Kurulacak makinenlerin ip bilgilerini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinelerde bulunan **sudo** yetkili kullanıcıları ifade etmektedir.
+Ahenk Kurulacak İstemci Erişim Bilgileri alanına;<br>
+İstemci Adresi : Etki alanına dahil edilecek istemci İP adresi, <br>
+Kullanıcı Adı : Ahenk kurulacak istemcide bulunan **sudo** yetkili kullanıcı adı,<br>
+Kullanıcı Parolası : Ahenk kurulacak istemcide bulunan **sudo** yetkili kullanıcı parolası<br>
+girilir. 
 
 Bilgiler girildikten sonra **Ekle** butonuna tıklanarak Ahenk Kurulacak İstemci Listesi alanına makine bilgileri eklenir.
 
 Kurulacak makinelerin bilgileri girildikten sonra **Kuruluma Başla** butonuna tıklanarak kurulum başlatılır.
 
-Kurulacak İstemci Listesi alanında kurulum bittikten sonra Ahenk  kurulumu başaralı olan makinelerin rengi cyan, kurulumunda hata olan makinelerin rengi ise gri olur.
+Kurulacak İstemci Listesi alanında kurulum bittikten sonra Ahenk  erişim sağlanan istemcilerin rengi mavi, erişim sağlanamayan istemcilerin rengi ise gri olur.
 Kurulum sırasındaki bilgiler Log Menüsünde görülür.
 
 
