@@ -159,6 +159,8 @@ Kurulum bittiğinde bu bildirim alınır.
 
 ### 3. Ahenk Menüsü
 
+Ahenk Menüsü, Lider Ahenk Arayüzünde sunucu ile bağlanmak istenilen makinelerin kurulmasını sağladığımız menüdür.
+
 ![10](10.png)
 
 Ahenk Konfigürasyon Bilgileri alanına XMPP sunucu kurulumu yapılan makinenin İP adresini XMPP Sunucu Adresi kısmına yazılır.
