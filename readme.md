@@ -157,7 +157,25 @@ Kurulum devam ediyor. Kurulum Logları açılan XTerm ekranında da takip edileb
 
 Kurulum bittiğinde bu bildirim alınır.
 
-### 2. Log Menüsü
+### 3. Ahenk Menüsü
+
+![10](10.png)
+
+Ahenk Konfigürasyon Bilgilerine XMPP sunucu kurulumu yapılan makinenin İP adresini XMPP Sunucu Adresi kısmına yazılır.
+
+Lider Ahenk Paket Deposu Ayarları kısmı <a href = "#ayarlar" >**yukardaki** </a> gibi yapılır.
+
+Ahenk Kurulacak İstemci Erişim Bilgileri alanına Ahenk kurulmak istenilen makinelerin bilgileri girilir. Kurulacak makinenlerin ip bilgilerini, kullanıcı adı ve kullanıcı parolası ise kurulum yapılacak makinelerde bulunan **sudo** yetkili kullanıcıları ifade etmektedir.
+
+Bilgiler girildikten sonra **Ekle** butonuna tıklanarak Ahenk Kurulacak İstemci Listesi alanına makine bilgileri eklenir.
+
+Kurulacak makinelerin bilgileri girildikten sonra **Kuruluma Başla** butonuna tıklanarak kurulum başlatılır.
+
+Kurulum bittikten sonra kurulumu başaralı olan makinelerin rengi cyan, kurulumunda hata olan makinelerin rengi ise gri olur.
+Kurulum sırasındaki bilgiler Log Menüsünde görülür.
+
+
+### 4. Log Menüsü
 
 Log Menüsüde ise kurulumda gerçekleşen komutları, bilgileri, hataların görüldüğü menüdür.
 
