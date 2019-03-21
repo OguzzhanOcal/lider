@@ -163,15 +163,15 @@ Ahenk Menüsü, istemcileri etki alanına dahil etmek için kullanılan menüdü
 
 ![10](10.png)
 
-Ahenk Konfigürasyon Bilgileri alanına, istemci blgi erişim alanında etki alanına dahil edilecek istemci erişim bilgileri girilir.
+XMPP Sunucu Adresine, sunucunun kurulu olduğu makinenin İP adresi girilir.
 
-Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur. Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket deposudur, Test Paket Deposu ise yeni geliştirmelerin yayınlandğı test paket deposudur. 
+Lider Ahenk Paket Deposu Ayarları, Ana Paket Deposu ve Test Paket Deposu olmak üzere 2 seçenekten oluşur. Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket deposudur, Test Paket Deposu ise yeni geliştirmelerin yayınlandğı test paket deposudur.
 
 Ahenk Kurulacak İstemci Erişim Bilgileri alanına;<br>
 İstemci Adresi : Etki alanına dahil edilecek istemci İP adresi, <br>
 Kullanıcı Adı : Ahenk kurulacak istemcide bulunan **sudo** yetkili kullanıcı adı,<br>
 Kullanıcı Parolası : Ahenk kurulacak istemcide bulunan **sudo** yetkili kullanıcı parolası<br>
-girilir. 
+girilir.
 
 Bilgiler girildikten sonra **Ekle** butonuna tıklanarak Ahenk Kurulacak İstemci Listesi alanına makine bilgileri eklenir.
 
