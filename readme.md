@@ -128,7 +128,7 @@ Ana Paket Deposu geliştirmelerin tamamlandığı kararlı paket deposudur, Test
 
 ![4](4.png)
 
-Kullanılmak istenilen paket deposu seçildikten sonra **Ayarları Kaydet** butonuna tıklayarak bağlantı ayarları ve paket deposu ayarları kaydedilir. Lider Ahenk sunucu konfigürasyon ayarları için **Lider Menüsüne** geçilir.
+Kullanılmak istenilen paket deposu seçildikten sonra **Ayarları Kaydet** butonuna tıklanarak bağlantı ayarları ve paket deposu ayarları kaydedilir. Lider Ahenk sunucu konfigürasyon ayarları için **Lider Menüsüne** geçilir.
 
 ### 2. Lider Menüsü
 
