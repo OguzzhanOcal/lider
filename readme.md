@@ -2,7 +2,7 @@
 
 ## Bağımlılıkların Kurulması
 
-Uçbirimde aşağıdaki komutları sırasıyla yazılır.
+Uçbirimde aşağıdaki komutlar sırasıyla yazılır.
 
 ````
 sudo apt-get install python3-yaml python3-paramiko python3-pyqt5
@@ -18,7 +18,7 @@ pip3 install ruamel.yaml
 
 ## Uygulamanın İndirilmesi
 
-Lider Ahenk Kurulum Uygulamasını indirmek için,
+Lider Ahenk Kurulum Uygulamasını indirmek için;
 
 ````
 sudo apt-get install git
@@ -30,11 +30,11 @@ komutu ile git paketi yüklenir.
 git clone https://github.com/Pardus-LiderAhenk/lider-ahenk-installer.git
 ````
 
-komutu ile Lider Ahenk Kurulum Uygulaması indirilir.
+Komutu ile Lider Ahenk Kurulum Uygulaması indirilir.
 
 ## Uygulamanın Çalıştırılması
 
-Kurulum ugulamasını çalıştırmak için;
+Kurulum uygulamasını çalıştırmak için;
 
 ````
 cd /lider-ahenk-instaler/src/
@@ -52,7 +52,7 @@ komutu ile kurulum uygulaması çalıştırılır.
 
 ## Menüler
 
-Uygulamamız solda görüldüğü gibi 4 menüden oluşur.
+Uygulama solda görüldüğü gibi 4 menüden oluşur.
 
 ### 1. Ayarlar Menüsü
 
@@ -61,7 +61,7 @@ Ayarlar menüsü, Lider Ahenk Sunucu Bağlantı Ayarları ve Lider Ahenk Paket D
 Lider Ahenk Sunucu Bağlantı Ayarları,
 Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
 
-**Standart Kurulum :** Lider Ahenk Bileşenlerini tek bir makineye kurmamızı sağlar. Sırasıyla; <br>
+**Standart Kurulum :** Lider Ahenk Bileşenlerini tek bir makineye kurulmasını sağlar. Sırasıyla; <br>
 * Standart Kurulum, <br>
 * Lider Ahenk Paket Deposu Ayarları,<br>
 * Lider Menüsü,<br>
@@ -70,7 +70,7 @@ Standart Kurulum ve Gelişmiş Kurulum olmak üzere iki şekilde gerçekleşir.
 adımları izlenmelidir.<br>
 Standart Kurulum adımları için <a href = "#standart" >**tıklayınız.**</a>
 
-**Gelişmiş Kurulum :** Lider Ahenk Bileşenlerini ayrı makinelere kurmamızı sağlar. Sırasıyla; <br>
+**Gelişmiş Kurulum :** Lider Ahenk Bileşenlerini ayrı makinelere kurulmasını sağlar. Sırasıyla; <br>
 * Gelişmiş Kurulum, <br>
 * Lider Ahenk Paket Deposu Ayarları,<br>
 * Lider Menüsü,<br>
