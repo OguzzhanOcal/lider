@@ -148,7 +148,7 @@ XMPP Admin Kullanıcı Parolası: XMPP admin kullanıcı parolası, <br> girilir
 
 **Kuruluma Başla** butonuna tıklanarak kurulum başlatılır.
 
-![7](img/png)
+![7](img/7.png)
 
 Kurulum devam ediyor. Kurulum Logları açılan XTerm ekranında da takip edilebilir.
 
