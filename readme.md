@@ -152,9 +152,7 @@ XMPP Admin Kullanıcı Parolası: XMPP admin kullanıcı parolası, <br> girilir
 
 Kurulum devam ediyor. Kurulum Logları açılan XTerm ekranında da takip edilebilir.
 
-![8](8.png)
-
-Kurulum bittiğinde bu bildirim alınır.
+Kurulum bittiğikten sonra Log Menüsünde kurulum detayları görülür.
 
 ### 3. Ahenk Menüsü
 
